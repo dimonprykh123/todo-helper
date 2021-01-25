@@ -1,0 +1,16 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "bot for my app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node telega_bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.3",
+    "mongoose": "^5.11.13",
+    "telegraf": "^4.0.1"
+  }
+}
