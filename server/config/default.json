@@ -1,6 +1,6 @@
 {
   "port": 5000,
-  "mongoUrl" : "mongoURL",
+  "mongoUrl" : "mongodb+srv://maxusan:maxusan1337@cluster0.ksvxz.azure.mongodb.net/<dbname>?retryWrites=true&w=majority",
   "jwtSecret": "Secret massage!",
-  "tgToken": "Bot-token"
+  "tgToken": "1529321099:AAE2D6TfIRIl_0oxkDZXTSU34S0VcrDcJe4"
 }

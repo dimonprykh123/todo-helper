@@ -11,15 +11,6 @@ app.use(express.json({extended:true}))
 app.use("/api/client/",require("./routes/profile.routes"))
 app.use("/api/auth/",require("./routes/user.routes"))
 app.use("/api/main/",require("./routes/todo.routes"))
-// app.use("/",require())
-
-// if(process.env.NODE_ENV === "production"){
-//     app.use("/",express.static(path.join(__dirname,"client","build")))
-//     app.get("*",(req,res)=>{
-//         res.sendFile(path.resolve(__dirname,"client","build","index.html"))
-//     })
-// }
-
 
 async function start(){
     try {

@@ -1,0 +1,57 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "bootstrap-switch-button-react": "^1.2.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "rc-time-picker": "^3.7.3",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.4.3",
+    "react-datepicker": "^3.3.0",
+    "react-day-picker": "^7.4.8",
+    "react-dom": "^16.13.1",
+    "react-js-pagination": "^3.0.3",
+    "react-rnd": "^10.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "react-scrollable-anchor": "^0.6.1",
+    "react-time-picker": "^4.1.1",
+    "react-use": "^15.3.8",
+    "recharts": "^1.8.5"
+  },
+  "scripts": {
+    "deploy": "netlify deploy -p",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://localhost:5000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  }
+}
